@@ -1,38 +1,172 @@
-.App {
-  text-align: center;
+.sec-title{
+  padding: 20px;
+  background-color: #000;
+}
+.bg{ background-color: #000;}
+
+.inner-bg{
+  background-color: #fff;
+  height: 300px
+}
+.sec-title h3{
+  text-align : left;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.inner-box{
+  background-color: #f6f6f6;
+  height: 200px
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.pad-inner{
+  padding:50px 25px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.list-li ul{
+  list-style: none;
+  padding-left: 0;
+  padding-bottom:18px;
+  margin:0
 }
 
-.App-link {
-  color: #61dafb;
+.list-li ul li{
+  float:left;
+  display: block;
+  font-size: 14px;
+  border-left: solid 1px #767676;
+  padding: 0 25px 0 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list-li h5{
+  color: #767676;
+  font-size: 12px;
+  font-weight: 400;
+  margin:0;
+  padding-bottom: 8px
+}
+
+.list-li h6{
+  color: #252525;
+  font-size: 12px;
+  font-weight: 600;
+  margin:0;
+}
+
+.pad20{
+  padding:20px
+}
+
+.inner-pd{
+  padding:20px 20px 10px 0px
+}
+
+.br-top{
+  border-top: solid 1px #252525;
+  border-bottom: solid 1px #252525;
+}
+
+.sec-one h5{
+  padding-top: 17px;
+  margin-bottom: 11px;
+  font-size: 20px;
+  color: #252525
+}
+.sec-one h6{
+    font-size: 13px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    margin:0;
+    color: #252525
+}
+
+.sec-two {
+  padding-top: 17px;
+}
+
+.sec-two ul{
+  list-style: none;
+  padding-left: 0;
+  padding-bottom:18px;
+  margin:0
+
+}
+
+.sec-two  ul li{
+  float:left;
+  display: block;
+  font-size: 14px;
+  border-left: solid 1px #767676;
+  padding: 0 20px 0 20px;
+}
+
+.sec-two h5{
+  color: #767676;
+  font-size: 12px;
+  font-weight: 400;
+  margin:0;
+  padding-bottom: 8px
+}
+
+.sec-two svg{
+  margin: 5px 0;
+  width: 18px !important;
+  height: 18px !important;
+}
+.sec-two h6{
+  color: #252525;
+  font-size: 12px;
+  font-weight: 600;
+  margin:0;
+}
+
+.link a{
+  position: absolute;
+  bottom: 16px;
+  right: 0px;
+  font-size: 14px;
+  color: #252525;
+  font-weight: 500
+}
+
+.btn{
+  border: solid 1px #4D6474 !important;
+  border-radius: 0 !important;
+  font-size: 12px !important;
+  margin-right: 10px;
+  background-color: #4D6474 !important;
+  color: #fff!important;
+}
+.btn:hover{
+  background-color: #4D6474 !important;
+  color: #fff!important;
+}
+.br-none{
+  border: none !important
+}
+
+.pos-li{
+  position: absolute;
+  right: -20px;
+}
+
+.pad0{
+  padding: 0 10px 0 0 !important
+}
+.pending h6{
+  margin-left:6px;
+}
+.pending h6 svg{
+  width:15px !important;
+  height: 15px !important;
+  left:-5px;
+  top: 2px;
+  position: relative;
+}
+.btnred{
+  background:#db0011 !important;
+  border: none !important;
+  position: absolute;
+  right: 120px
 }
